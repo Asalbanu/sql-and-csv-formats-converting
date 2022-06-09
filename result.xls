@@ -1,0 +1,9 @@
+,type,name,tbl_name,rootpage,sql
+0,table,fault_lines,fault_lines,2,"CREATE TABLE fault_lines (
+    fault_name varchar(100),
+    length int,
+    location varchar(100),
+    sense_of_movement varchar(50),
+    time_of_movement  varchar(50),
+    associated_earthquakes varchar(255)
+  )"
